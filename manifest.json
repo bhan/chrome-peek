@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+
+    "name":         "Peek",
+    "description":  "This extension allows you to only look at parts of the page with your mouse.",
+    "version":      "1.0",
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "browser_action": {
+        "default_icon":     "icon.png"
+    }
+}
